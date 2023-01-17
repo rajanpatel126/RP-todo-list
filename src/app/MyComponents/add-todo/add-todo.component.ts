@@ -19,5 +19,7 @@ export class AddTodoComponent {
       active:true
     }    
     this.todoAdd.emit(todo)
+    this.title=""
+    this.desc=""
   }
 }
